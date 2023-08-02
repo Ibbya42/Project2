@@ -18,7 +18,7 @@
 #navbar{
     background-image: linear-gradient(red, black);
     width: 100vw;
-    position: fixed;
+    /* position: fixed; */
     
 }
 
@@ -147,4 +147,16 @@ HTML{
 .aboutus_right{
     float: right;
     width: 50%;
+}
+
+/* Gallery CSS */
+
+#Gallery{
+    display: flex;
+    flex-direction: column;
+    padding: 72px 0;
+}
+
+.title_gallery{
+    color: black;
 }
