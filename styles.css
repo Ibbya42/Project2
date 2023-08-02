@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .row{
@@ -15,7 +16,7 @@
 /* NavBar CSS */
 
 #navbar{
-    background-color: #39393A ;
+    background-image: linear-gradient(red, black);
     width: 100vw;
     position: fixed;
     
@@ -37,6 +38,7 @@ HTML{
     font-size: 32px;
     text-align: center;
     margin-bottom: 32px;
+    text-transform: uppercase;
 }
 
 .nav{
@@ -70,7 +72,7 @@ HTML{
     display: flex;
     flex-direction: column;
     padding: 155px 0;
-    background-color: whitesmoke;
+
 
 }
 
@@ -98,6 +100,12 @@ HTML{
     text-align: center;
 }
 
+.landing__para{
+    text-align: center;
+    font-size: 24px;
+    color: red;
+}
+
 .landing__both{
     display: flex;
     justify-content: center;
@@ -107,7 +115,7 @@ HTML{
 /* About Us CSS */
 
 #AboutUs{
-    background-color: #39393A;
+    background-image: linear-gradient(red, black);
     display: flex;
     flex-direction: column;
     padding: 72px;
@@ -121,5 +129,22 @@ HTML{
 .about__para{
     text-align: center;
     color: white;
-    font-size: 28px;
+    font-size: 24px;
+}
+
+
+.about__para--supply{
+    text-align: center;
+    list-style-type: none;
+    color: white;
+    font-size: 24px;
+}
+
+.about__us-img{
+    width: 100%;
+}
+
+.aboutus_right{
+    float: right;
+    width: 50%;
 }
