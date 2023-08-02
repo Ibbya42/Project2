@@ -79,7 +79,6 @@ HTML{
 .landing__left{
     width: 50%;
     float: left;
-    margin-top: 70px;
     
 }
 
@@ -90,7 +89,6 @@ HTML{
 .landing__right{
     width: 50%;
     float: right;
-    margin-top: 70px;
 }
 
 .landing__content{
@@ -160,3 +158,22 @@ HTML{
 .title_gallery{
     color: black;
 }
+
+.gallery__img{
+    width: 100%;
+}
+
+.gallery__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.gallerylist{
+    display: flex;
+    width: calc(100%/3);
+    
+}
+
