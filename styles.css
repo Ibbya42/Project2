@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* NavBar CSS */
+
+#navbar{
+    background-color: #39393A ;
+    width: 100vw;
+    position: fixed;
+    
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px ;
+    color: white;
+    
+}
+
+.logo__size{
+    font-size: 48px;
+}
+
+.nav__size{
+    font-size: 24px;
+}
+
+.nav__link{
+    padding: 0 12px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    color: white;
+}
+
+/* Landing CSS */
+
+#landing{
+    display: flex;
+    flex-direction: column;
+    padding: 48px 0;
+
+}
+
+.landing__left{
+    width: 50%;
+    float: left;
+    margin-top: 70px;
+    
+}
+
+.landing__left-img{
+    width: 100%;
+}
+
+.landing__right{
+    width: 50%;
+    float: right;
+    margin-top: 70px;
+}
+
+.landing__content{
+    font-size: 52px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.landing__both{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
