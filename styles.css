@@ -117,7 +117,7 @@ HTML{
     background-image: linear-gradient(red, black);
     display: flex;
     flex-direction: column;
-    padding: 105px;
+    padding: 72px;
 }
 
 .aboutus__left{
@@ -187,7 +187,7 @@ HTML{
 /* Contact Us CSS */
 
 #contactUs{
-    background-image: linear-gradient(red, black);
+    background-image: linear-gradient(black, red);
     display: flex;
     flex-direction: column;
     padding: 72px;
@@ -235,4 +235,11 @@ HTML{
     background-color: white;
     color: black;
     padding: 10px 15px;
+}
+
+@media (max-width: 530px){
+    
+    .logo__size{
+        font-size: 20px;
+    }
 }
