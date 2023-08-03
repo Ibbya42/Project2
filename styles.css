@@ -163,17 +163,72 @@ HTML{
     width: 100%;
 }
 
+.gallerylist:hover .gallery__img{
+    transform: scale(1.05) ;
+}
+
 .gallery__wrapper{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding-top: 24px;
+    
+    
 }
-
 
 .gallerylist{
     display: flex;
     width: calc(100%/3);
-    
+    /* position: relative; */
 }
 
+/* Contact Us CSS */
+
+#contactUs{
+    background-image: linear-gradient(red, black);
+    display: flex;
+    flex-direction: column;
+    padding: 72px;
+}
+
+.contact__para{
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    padding-bottom: 24px;
+}
+
+.form{
+   display: flex;
+   flex-direction: column;
+}
+
+.form__wrapper{
+    padding: 20px;
+}
+
+.form__wrapper .form{
+    padding-bottom: 15px;
+}
+
+.form__wrapper label{
+    display: block;
+    color: white;
+}
+
+.form__wrapper input[type = "text"]{
+    padding: 8px;
+    width: 100%
+}
+
+.form__wrapper textarea{
+    padding: 30px;
+    width: 100%;
+}
+
+.form__wrapper input[type = "submit"]{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+}
