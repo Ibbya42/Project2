@@ -30,6 +30,10 @@ a{
 HTML{
     scroll-behavior: smooth;
     transition: all 800ms ease;
+    
+}
+
+body{
     overflow-x: hidden;
 }
 
@@ -78,6 +82,7 @@ HTML{
     display: flex;
     flex-direction: column;
     padding: 155px 0;
+    
 
 
 }
@@ -267,9 +272,79 @@ HTML{
     text-decoration: none;
 }
 
-@media (max-width: 530px){
-    
+@media (max-width: 480px){
+
+   HTML{
+    overflow-x: hidden;
+   }
+   
+    #navbar {
+        width: 100vw;
+          
+    }
+
+    .nav__links{
+        display: none;
+    }
+
     .logo__size{
         font-size: 20px;
     }
+    
+
+    .landing__both{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .landing__content{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .landing__para{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .landing__left-img{
+        width: 100%;
+        margin: 0 auto;
+       
+    }
+
+    .title{
+        font-size: 30px;
+    }
+
+    .sub_title{
+        font-size: 18px;
+    }
+
+    .aboutus__left{
+        width: 100%;
+    }
+
+    .aboutus_right{
+        width: 100%;
+    }
+
+    .about__para{
+        font-size: 16px;
+    }
+
+    .about__para--supply{
+        font-size: 16px;
+    }
+    
+    .gallerylist{
+        width: calc(100%/1);
+    }
+    
+    .gallery__img{
+        width: 100%;
+    }
+
+    
 }
