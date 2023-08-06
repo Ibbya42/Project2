@@ -237,6 +237,24 @@ HTML{
     padding: 10px 15px;
 }
 
+/* Footer CSS */
+
+#footer{
+    background-color: black;
+    padding: 72px;
+}
+
+.footer_section{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.footer__section--list{
+    padding: 0 12px;
+    width: calc(100%/3);
+}
+
 @media (max-width: 530px){
     
     .logo__size{
