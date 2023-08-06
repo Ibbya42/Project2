@@ -217,6 +217,7 @@ body{
 
 .form__wrapper{
     padding: 20px;
+    text-align: center;
 }
 
 .form__wrapper .form{
@@ -344,6 +345,28 @@ body{
     
     .gallery__img{
         width: 100%;
+    }
+
+    .contact__para{
+        font-size: 18px;
+    }
+
+    .form__wrapper{
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer_section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__section--list{
+        width: calc(100%/1);
+        padding: 12px 0;
+        text-align: center;
     }
 
     
