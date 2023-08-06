@@ -22,6 +22,11 @@
     
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 HTML{
     scroll-behavior: smooth;
     transition: all 800ms ease;
@@ -253,6 +258,13 @@ HTML{
 .footer__section--list{
     padding: 0 12px;
     width: calc(100%/3);
+}
+
+.footer__links{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
 }
 
 @media (max-width: 530px){
