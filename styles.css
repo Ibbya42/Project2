@@ -352,6 +352,19 @@ body{
         width: 100%;
     }
 
+    
+    .footer_section{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .footer__section--list{
+        width: calc(100%/2);
+        padding: 12px 0;
+        text-align: center;
+    }
+
 }
 
 @media (max-width: 480px){
