@@ -273,6 +273,36 @@ body{
     text-decoration: none;
 }
 
+@media (max-width: 1024px){
+
+    nav {
+        width: 100vw;
+    }
+
+    .landing__both{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .aboutus__left{
+        width: 100%;
+    }
+
+    .aboutus_right{
+        width: 100%;
+    }
+
+    .gallerylist{
+        width: calc(100%/2);
+    }
+    
+    .gallery__img{
+        width: 100%;
+    }
+
+}
+
 
 @media (max-width: 840px){
 
