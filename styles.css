@@ -79,24 +79,24 @@ body{
 /* Burger Menu  */
 
 .btn__menu{
-    background-color: transparent;
     font-size: 20px;
     text-align: center;
-    border: none;
+    background-color: transparent;
     color: red;
+    border: none;
     display: none;
 }
 
 .menu_backdrop{
     position: absolute;
     background-color: #242424;
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 100;
-    align-items: center;
-    justify-content: center;
     transition: all 300ms ease;
     opacity: 0;
     visibility: hidden;
@@ -123,13 +123,15 @@ body{
 
 .menu__list{
     padding: 32px 0 ;
+    list-style-type: none;
+    
    
 }
 
 .menu_link{
     color: white;
     font-size: 40px;
-    text-decoration: none;
+   
     
 }
 
@@ -137,8 +139,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-   
-   
+    
 
 }
 
@@ -148,8 +149,6 @@ body{
     display: flex;
     flex-direction: column;
     padding: 155px 0;
-    
-
 
 }
 
