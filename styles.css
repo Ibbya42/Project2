@@ -78,7 +78,7 @@ body{
 
 /* Burger Menu  */
 
-.btn__menu{
+.burger__button{
     font-size: 20px;
     text-align: center;
     background-color: transparent;
@@ -87,7 +87,7 @@ body{
     display: none;
 }
 
-.menu_backdrop{
+.burger_backdrop{
     position: absolute;
     background-color: #242424;
     z-index: 100;
@@ -102,7 +102,7 @@ body{
     visibility: hidden;
 }
 
-.menu--open .menu_backdrop{
+.menu--open .burger_backdrop{
     visibility: visible;
     opacity: 1;
 }
@@ -128,14 +128,14 @@ body{
    
 }
 
-.menu_link{
+.burger_link{
     color: white;
     font-size: 40px;
    
     
 }
 
-.menu__links{
+.burger__links{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -559,7 +559,7 @@ body{
         text-align: center;
     }
 
-    .btn__menu{
+    .burger__button{
         display: block;
     }
 
